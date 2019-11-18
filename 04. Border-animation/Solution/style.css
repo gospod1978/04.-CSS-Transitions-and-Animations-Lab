@@ -1,0 +1,29 @@
+body {
+    background: #000;
+    width: 700px;
+    height: 45em;
+    padding-top: 5em;
+    margin: 0 auto;
+}
+
+.site {
+    width: 70%;
+    height: 30%;
+    background: #FFD;
+    padding: 5em;    
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0.5em;
+    padding: 1em;
+    background: #FFF;
+    color: #333;
+    border: solid 4px #666;
+    transition: border 0.7s;
+}
+
+a:hover {
+    border: solid 8px #666;
+}

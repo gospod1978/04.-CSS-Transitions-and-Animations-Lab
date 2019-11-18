@@ -1,0 +1,56 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+body {
+    background: black;
+    padding: 10em 15em;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+
+}
+
+ul {
+ list-style: none;
+ padding: 2em;
+ 
+}
+
+li {
+    display: block;
+    list-style: none outside;
+    padding: 0 0.5em;
+    transform: translate(-15em);
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+}
+
+
+nav ul li:nth-child(1) { transition-delay: 0.2s; }
+nav ul li:nth-child(2) { transition-delay: 0.4s; }
+nav ul li:nth-child(3) { transition-delay: 0.6s; }
+nav ul li:nth-child(4) { transition-delay: 0.8s; }
+nav ul li:nth-child(5) { transition-delay: 1.0s; }
+nav ul li:nth-child(6) { transition-delay: 1.2s; }
+nav ul li:nth-child(7) { transition-delay: 1.4s; }
+
+
+.loaded nav ul li {
+    opacity: 1;
+    transform: translate(0);
+}
+
+
+
+i {
+    margin: 0.5em;
+}
+
+a {
+    padding-right: 0.5em;
+    text-decoration: none;
+    color: black;
+}

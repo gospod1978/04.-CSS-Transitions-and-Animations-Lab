@@ -1,0 +1,32 @@
+body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site {
+    background: #FFF;
+    display: block;
+    width: 60%;
+    padding: 2em;
+    margin: 5em;
+}
+
+.gradient {
+    display: block;
+    padding: 15em;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(233,233,233,1) 84%);
+     
+    }
+
+.gradient:hover {
+    background: rgb(205,147,51);
+    background: linear-gradient(180deg, rgba(205,147,51,1) 12%, rgba(233,192,93,1) 49%);
+    cursor: pointer;
+    transition: all 2s ease;
+
+    }
+
+

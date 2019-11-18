@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10em;
+    width: 15em;
+    height: 15em;
+    background: #FFF;
+}
+
+.square {
+    display: block;
+    width: 7em;
+    height: 7em;
+    background: red;
+    animation: slide 1s ease-in-out alternate infinite forwards; 
+}
+
+@keyframes slide {
+
+    0% {
+        border-radius: 50%;
+    }
+
+    10% {
+        border-radius: 45%;
+    }
+
+    20% {
+        border-radius: 40%;
+    }
+
+    30% {
+        border-radius: 35%;
+    }
+
+    40% {
+        border-radius: 30%;
+    }
+
+    50% {
+        border-radius: 25%;
+    }
+
+    60% {
+        border-radius: 20%;
+    }
+
+    70% {
+        border-radius: 15%;
+    }
+
+    80% {
+        border-radius: 10%;
+    }
+
+    90% {
+        border-radius: 5%;
+    }
+
+    100% {
+         border-radius: 0%;
+         background: orange;
+         transform: scale(1.5);
+    }
+
+    
+}
